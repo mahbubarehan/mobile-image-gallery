@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8eeec">
+  <meta name="description" content="Your Fashionables — আপনার পছন্দ, আপনার স্বাচ্ছন্দ্য।">
+  <title>Your Fashionables | আপনার পছন্দ, আপনার স্বাচ্ছন্দ্য</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#"><span class="brand-mark">YF</span><span><b>YOUR FASHIONABLES</b><small>আপনার পছন্দ, আপনার স্বাচ্ছন্দ্য</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="মেনু">☰</button>
+    <nav id="mainNav">
+      <a href="#home">হোম</a><a href="#products">কালেকশন</a><a href="#posts">নতুন পোস্ট</a>
+      <a href="#about">আমাদের সম্পর্কে</a><a class="nav-order" target="_blank" rel="noopener" href="https://www.facebook.com/share/1Dsg7o2T34/">অর্ডার / ইনবক্স</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">COMFORT • CONFIDENCE • STYLE</span>
+        <h1>নিজের স্বাচ্ছন্দ্য,<br><em>নিজের মতো করে।</em></h1>
+        <p>আপনার প্রতিদিনের জন্য বেছে নিন আরামদায়ক ও রুচিশীল ইননারওয়্যার কালেকশন।</p>
+        <div class="hero-actions"><a class="btn btn-dark" href="#products">কালেকশন দেখুন</a><a class="text-link" target="_blank" rel="noopener" href="https://www.facebook.com/share/1Dsg7o2T34/">মেসেঞ্জারে কথা বলুন ↗</a></div>
+      </div>
+      <div class="hero-art"><div class="hero-orbit"></div><div class="hero-card"><span>YOUR DAILY<br>COMFORT</span><strong>Elegance<br>in every detail.</strong><small>YOUR FASHIONABLES</small></div><div class="hero-sticker">NEW<br>COLLECTION</div></div>
+    </section>
+
+    <section class="trust-strip"><span>✦ বাছাইকৃত কালেকশন</span><span>✦ সহজে ইনবক্সে অর্ডার</span><span>✦ যত্নে প্যাকেজিং</span></section>
+
+    <section class="section" id="products">
+      <div class="section-heading"><div><span class="eyebrow">OUR COLLECTION</span><h2>পছন্দের কালেকশন</h2><p>আপনার প্রয়োজন অনুযায়ী পণ্য খুঁজে নিন।</p></div><a class="text-link" target="_blank" rel="noopener" href="https://www.facebook.com/share/1Dsg7o2T34/">সব জানতে ইনবক্স করুন ↗</a></div>
+      <div class="filters"><button class="filter active" data-category="সব">সব পণ্য</button><button class="filter" data-category="ব্রা">ব্রা</button><button class="filter" data-category="প্যান্টি">প্যান্টি</button><input id="productSearch" type="search" placeholder="পণ্য খুঁজুন..."></div>
+      <div class="product-grid" id="productGrid"><div class="empty-state">পণ্য লোড হচ্ছে...</div></div>
+    </section>
+
+    <section class="editorial">
+      <div><span class="eyebrow">A LITTLE NOTE</span><h2>আরামই হোক<br>প্রতিদিনের পছন্দ।</h2><p>সঠিক ফিট, আরামদায়ক কাপড় এবং নিজের পছন্দ—সবকিছুর গুরুত্ব আছে।</p></div>
+      <div class="editorial-mark">Y<span>F</span></div>
+    </section>
+
+    <section class="section posts-section" id="posts">
+      <div class="section-heading"><div><span class="eyebrow">FROM OUR PAGE</span><h2>নতুন পোস্ট ও আপডেট</h2><p>নতুন কালেকশন, অফার ও প্রয়োজনীয় আপডেট এক জায়গায়।</p></div></div>
+      <div class="post-grid" id="postGrid"><div class="empty-state">পোস্ট লোড হচ্ছে...</div></div>
+    </section>
+
+    <section class="about" id="about"><span class="eyebrow">YOUR FASHIONABLES</span><h2>আপনার আস্থা ও স্বাচ্ছন্দ্যই আমাদের অগ্রাধিকার।</h2><p>পণ্য, সাইজ বা অর্ডার সম্পর্কে জানতে সরাসরি Facebook Messenger-এ যোগাযোগ করুন।</p><a class="btn btn-light" target="_blank" rel="noopener" href="https://www.facebook.com/share/1Dsg7o2T34/">মেসেঞ্জারে যোগাযোগ করুন</a></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">YF</span><span><b>YOUR FASHIONABLES</b><small>আপনার পছন্দ, আপনার স্বাচ্ছন্দ্য</small></span></a><p>© <span id="year"></span> Your Fashionables. সর্বস্বত্ব সংরক্ষিত।</p><a target="_blank" rel="noopener" href="https://www.facebook.com/share/1Dsg7o2T34/">Facebook-এ যোগাযোগ ↗</a></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button id="lightboxClose" aria-label="বন্ধ করুন">×</button><button id="lightboxPrev" aria-label="আগের ছবি">‹</button><img id="lightboxImage" alt="পণ্যের ছবি"><button id="lightboxNext" aria-label="পরের ছবি">›</button><div id="lightboxCount"></div></div>
+  <script src="/app.js"></script>
+</body>
+</html>
